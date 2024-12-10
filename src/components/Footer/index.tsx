@@ -5,7 +5,7 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <>
-      <footer className="relative z-10 bg-white pt-16 dark:bg-gray-dark md:pt-20 lg:pt-24">
+     <footer className="relative z-10 bg-white pt-16 dark:bg-gray-dark md:pt-20 lg:pt-24">
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-4/12">
@@ -195,10 +195,10 @@ const Footer = () => {
                       rel="noopener noreferrer"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      btgpactual.com/ouvidoria
+                      www.btgpactual.com/ouvidoria
                     </a>
                   </li>
-                  
+
                   <li>
                     <Link
                       href="/politicas"
@@ -211,15 +211,32 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
+
+              <h2 style={{ marginTop: '-50px' }} className="mb-30 text-xl font-bold text-black dark:text-white">
+                Horário de atendimento
+              </h2>
+              <ul>
+                <li>
+                  <a
+
+                    style={{ marginBottom: '50px' }}
+                    href="tel:1150260007"
+                    className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                  >
+                    Das 9h às 18h, de segunda à sexta-feira, exceto feriados
+
+                  </a>
+                </li>
+              </ul>
             </div>
             <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
             <div className="px-6 pb-10 pt-10">
               <p className="text-[8px]/4 sm:text-[9px]/4 text-left text-body-color">
-                A Verbum Capital - Assessor de Investimentos LTDA., inscrita sob o CNPJ nº 53.161.654/0001-63 é uma empresa de assessoria de investimento devidamente registrada na Comissão de Valores Mobiliários (CVM), na forma da Resolução CVM 178. Atuando no mercado financeiro como preposto do Banco BTG Pactual S/A, o que pode ser verificado através do site da ANCORD (https://www.ancord.org.br/certificacao-e-credenciamento/) ou através do site do próprio Banco BTG Pactual S/A (https://www.sejabtg.com/seja-btg).
+              A Verbum Capital - Assessor de Investimentos LTDA., inscrita sob o CNPJ nº 53.161.654/0001-63 é uma empresa de assessoria de investimento devidamente registrada na Comissão de Valores Mobiliários (CVM), na forma da Resolução CVM 178. Atuando no mercado financeiro como preposto do Banco BTG Pactual S/A, o que pode ser verificado através do site da ANCORD (https://www.ancord.org.br/certificacao-e-credenciamento/) ou através do site da Necton Investimentos (https://www.necton.com.br/seja-parceiro/). 
                 <br /><br />
-                O Banco BTG Pactual S/A é instituição financeira integrante do sistema de distribuição de títulos e valores mobiliários, atuando como intermediário das operações de seus clientes. Na forma da legislação da CVM, o assessor de investimento não pode administrar ou gerir o patrimônio de investidores, pois é um preposto do intermediário e depende da autorização prévia do cliente para realizar operações no mercado financeiro. Na realização de operações com derivativos existe a possibilidade de significativas perdas patrimoniais, inclusive superiores aos valores investidos.
+                O Banco BTG Pactual S/A é instituição financeira integrante do sistema de distribuição de títulos e valores mobiliários, atuando como intermediário das operações de seus clientes. Na forma da legislação da CVM, o assessor de investimento não pode administrar ou gerir o patrimônio de investidores, pois é um preposto do intermediário e depende da autorização prévia do cliente para realizar operações no mercado financeiro. Na realização de operações com derivativos, existe a possibilidade de significativas perdas patrimoniais, inclusive, superiores aos valores investidos. 
                 <br /><br />
-                A assessoria pode exercer outras atividades relacionadas ao mercado financeiro, de capitais, securitário e de previdência e capitalização, que podem ou não ser em parceria com o BTG Pactual ou demais instituições, e que podem ou não ser realizadas pela mesma pessoa jurídica da assessoria. Especificamente quanto a atividades de gestão, consultoria e análise de valores mobiliários, estas podem vir a ser desempenhadas por empresas do grupo e nunca pela própria assessoria de investimentos, considerando que são atividades conflitantes e que exigem segregação. O investimento em ações é um investimento de risco e rentabilidade passada não é garantia de rentabilidade futura. Para reclamações, favor contatar a Ouvidoria do Banco BTG Pactual S/A no telefone nº 0800-722-0048. Para acessar nossa lista de sócios clique aqui: https://www.sejabtg.com/escritorios.
+                A assessoria pode exercer outras atividades relacionadas ao mercado financeiro, de capitais, securitário e de previdência e capitalização, que podem ou não ser em parceria com o BTG Pactual ou demais instituições, e que podem ou não ser realizadas pela mesma pessoa jurídica da assessoria. Especificamente quanto às atividades de gestão, consultoria e análise de valores mobiliários, estas podem vir a ser desempenhadas por empresas do grupo e nunca pela própria assessoria de investimentos, considerando que são atividades conflitantes e que exigem segregação. O investimento em ações é um investimento de risco e rentabilidade passada não é garantia de rentabilidade futura. Para reclamações, favor contatar a Ouvidoria do Banco BTG Pactual S/A no telefone nº 0800-722-0048. Para acessar nossa lista de sócios, clique aqui: (https://www.necton.com.br/seja-parceiro/)
               </p>
             </div>
           </div>
