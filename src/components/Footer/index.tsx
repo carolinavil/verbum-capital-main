@@ -216,14 +216,8 @@ const Footer = () => {
                       Política de Privacidade
                     </Link>
                   </li>
-                </ul>
-              </div>
-
-              <h2 style={{ marginTop: '-50px' }} className="mb-30 text-xl font-bold text-black dark:text-white">
-                Horário de atendimento
-              </h2>
-              <ul>
-                <li>
+                
+                  <li>
                   <a
 
                     style={{ marginBottom: '50px' }}
@@ -234,7 +228,11 @@ const Footer = () => {
 
                   </a>
                 </li>
-              </ul>
+                </ul>
+              </div>
+
+            
+           
             </div>
             <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
             <div className="px-6 pb-10 pt-10">
