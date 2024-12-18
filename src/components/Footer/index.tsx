@@ -205,18 +205,6 @@ const Footer = () => {
                       www.btgpactual.com/ouvidoria
                     </a>
                   </li>
-
-                  <li>
-                    <Link
-                      href="/politicas"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                    >
-                      Política de Privacidade
-                    </Link>
-                  </li>
-                
                   <li>
                   <a
 
@@ -228,6 +216,18 @@ const Footer = () => {
 
                   </a>
                 </li>
+                  <li>
+                    <Link
+                      href="/politicas"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    >
+                      Política de Privacidade
+                    </Link>
+                  </li>
+                
+               
                 </ul>
               </div>
 
